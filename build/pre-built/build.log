@@ -1,0 +1,221 @@
+====Barb====
+ECHO: pdg_version = "0.27.5"
+ECHO: bosl_version = "2.0.716"
+Geometries in cache: 222
+Geometry cache size in bytes: 32584208
+CGAL Polyhedrons in cache: 2
+CGAL cache size in bytes: 1491712
+Total rendering time: 0:11:51.814
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:    61274
+   Halfedges:  241508
+   Edges:      120754
+   Halffacets: 119028
+   Facets:      59514
+   Volumes:         2
+\n\n
+====Druid====
+ECHO: pdg_version = "0.27.5"
+ECHO: bosl_version = "2.0.716"
+Geometries in cache: 222
+Geometry cache size in bytes: 34841456
+CGAL Polyhedrons in cache: 2
+CGAL cache size in bytes: 1491712
+Total rendering time: 0:12:37.500
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:    64226
+   Halfedges:  250364
+   Edges:      125182
+   Halffacets: 121978
+   Facets:      60989
+   Volumes:         2
+\n\n
+====Pal====
+ECHO: pdg_version = "0.27.5"
+ECHO: bosl_version = "2.0.716"
+Geometries in cache: 222
+Geometry cache size in bytes: 33677360
+CGAL Polyhedrons in cache: 2
+CGAL cache size in bytes: 1491712
+Total rendering time: 0:12:08.172
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:    62694
+   Halfedges:  245768
+   Edges:      122884
+   Halffacets: 120448
+   Facets:      60224
+   Volumes:         2
+\n\n
+====Bard====
+ECHO: pdg_version = "0.27.5"
+ECHO: bosl_version = "2.0.716"
+Geometries in cache: 222
+Geometry cache size in bytes: 31573888
+CGAL Polyhedrons in cache: 1
+CGAL cache size in bytes: 104034656
+Total rendering time: 0:11:32.300
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:    59888
+   Halfedges:  237350
+   Edges:      118675
+   Halffacets: 117646
+   Facets:      58823
+   Volumes:         2
+\n\n
+====Fighter====
+ECHO: pdg_version = "0.27.5"
+ECHO: bosl_version = "2.0.716"
+Geometries in cache: 222
+Geometry cache size in bytes: 33325200
+CGAL Polyhedrons in cache: 2
+CGAL cache size in bytes: 1491712
+Total rendering time: 0:11:41.178
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:    62246
+   Halfedges:  244424
+   Edges:      122212
+   Halffacets: 120000
+   Facets:      60000
+   Volumes:         2
+\n\n
+====Warlock====
+ECHO: pdg_version = "0.27.5"
+ECHO: bosl_version = "2.0.716"
+Geometries in cache: 222
+Geometry cache size in bytes: 33708960
+CGAL Polyhedrons in cache: 2
+CGAL cache size in bytes: 1491712
+Total rendering time: 0:11:35.195
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:    62764
+   Halfedges:  245978
+   Edges:      122989
+   Halffacets: 120534
+   Facets:      60267
+   Volumes:         2
+\n\n
+====Cleric====
+ECHO: pdg_version = "0.27.5"
+ECHO: bosl_version = "2.0.716"
+Geometries in cache: 222
+Geometry cache size in bytes: 32982928
+CGAL Polyhedrons in cache: 2
+CGAL cache size in bytes: 1491712
+Total rendering time: 0:11:41.844
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:    61794
+   Halfedges:  243068
+   Edges:      121534
+   Halffacets: 119548
+   Facets:      59774
+   Volumes:         2
+\n\n
+====Monk====
+ECHO: pdg_version = "0.27.5"
+ECHO: bosl_version = "2.0.716"
+Geometries in cache: 222
+Geometry cache size in bytes: 31966880
+CGAL Polyhedrons in cache: 1
+CGAL cache size in bytes: 104776800
+Total rendering time: 0:11:20.580
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:    60440
+   Halfedges:  239006
+   Edges:      119503
+   Halffacets: 118200
+   Facets:      59100
+   Volumes:         2
+\n\n
+====Rogue====
+ECHO: pdg_version = "0.27.5"
+ECHO: bosl_version = "2.0.716"
+Geometries in cache: 222
+Geometry cache size in bytes: 33056784
+CGAL Polyhedrons in cache: 2
+CGAL cache size in bytes: 1491712
+Total rendering time: 0:12:07.677
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:    61890
+   Halfedges:  243356
+   Edges:      121678
+   Halffacets: 119648
+   Facets:      59824
+   Volumes:         2
+\n\n
+====Wiz====
+ECHO: pdg_version = "0.27.5"
+ECHO: bosl_version = "2.0.716"
+Geometries in cache: 221
+Geometry cache size in bytes: 33914040
+CGAL Polyhedrons in cache: 2
+CGAL cache size in bytes: 1491712
+Total rendering time: 0:12:22.186
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:    63950
+   Halfedges:  249536
+   Edges:      124768
+   Halffacets: 121716
+   Facets:      60858
+   Volumes:         2
+\n\n
+====DND====
+ECHO: pdg_version = "0.27.5"
+ECHO: bosl_version = "2.0.716"
+Geometries in cache: 221
+Geometry cache size in bytes: 43040616
+CGAL Polyhedrons in cache: 2
+CGAL cache size in bytes: 1491712
+Total rendering time: 0:16:28.036
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:    78292
+   Halfedges:  292562
+   Edges:      146281
+   Halffacets: 136056
+   Facets:      68028
+   Volumes:         2
+\n\n
+====Range====
+ECHO: pdg_version = "0.27.5"
+ECHO: bosl_version = "2.0.716"
+Geometries in cache: 222
+Geometry cache size in bytes: 34890576
+CGAL Polyhedrons in cache: 2
+CGAL cache size in bytes: 1491712
+Total rendering time: 0:12:23.047
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:    64294
+   Halfedges:  250568
+   Edges:      125284
+   Halffacets: 122056
+   Facets:      61028
+   Volumes:         2
+\n\n
+====Sorc====
+ECHO: pdg_version = "0.27.5"
+ECHO: bosl_version = "2.0.716"
+Geometries in cache: 222
+Geometry cache size in bytes: 32408624
+CGAL Polyhedrons in cache: 2
+CGAL cache size in bytes: 1491712
+Total rendering time: 0:11:19.948
+   Top level object is a 3D object:
+   Simple:        yes
+   Vertices:    61042
+   Halfedges:  240812
+   Edges:      120406
+   Halffacets: 118798
+   Facets:      59399
+   Volumes:         2
+\n\n
