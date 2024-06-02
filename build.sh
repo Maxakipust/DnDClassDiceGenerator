@@ -1,6 +1,6 @@
 # set -o xtrace
-
-VERSION="2.3"
+echo $1
+VERSION=${1:-"2.3"}
 
 echo "====Checking dependencies===="
 
@@ -26,11 +26,13 @@ echo "====All dependencies found===="
 
 mkdir -p build/${VERSION}
 
-for class in "Barb" "Druid" "Pal" "Bard" "Fighter" "Warlock" "Cleric" "Monk" "Rogue" "Wiz" "DND" "Range" "Sorc"; do
+ALL_CLASSES=("Barb" "Druid" "Pal" "Bard" "Fighter" "Warlock" "Cleric" "Monk" "Rogue" "Wiz" "DND" "Range" "Sorc")
+
+for class in $ALL_CLASSES; do
     echo "Starting ${class}"
     openscad \
     --export-format binstl -o "build/${VERSION}/${class}_${VERSION}.stl" \
-    -p DnDClassDiceGenerator.json -P ${class} \
+    -p PolyDiceGenerator.json -P ${class} \
     PolyDiceGenerator.scad > "build/${VERSION}/${class}_${VERSION}.log" 2>&1 &
 done
 wait
@@ -40,7 +42,7 @@ echo "Finished"
 echo "Cleaning up logs"
 logfile=build/${VERSION}/build.log
 touch $logfile
-for class in "Barb" "Druid" "Pal" "Bard" "Fighter" "Warlock" "Cleric" "Monk" "Rogue" "Wiz" "DND" "Range" "Sorc"; do
+for class in $ALL_CLASSES; do
     echo "====${class}====" >> $logfile
     cat build/${VERSION}/${class}_${VERSION}.log >> $logfile
     echo -e "\n\n" >> $logfile
