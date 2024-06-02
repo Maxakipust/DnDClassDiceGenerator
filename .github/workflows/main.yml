@@ -20,11 +20,6 @@ jobs:
         run: sudo cp ./fonts/* /usr/share/fonts/ && sudo fc-cache -f -v
       - name: build
         run: chmod +x ./build.sh && ./build.sh release
-      - name: version
-        run: echo "::set-output name=version::$(./bin/azblogfilter --version)"
-        id: version
-      - name: build artifacts
-        run: make build-linux && make build-windows && make build-darwin
       - name: release
         uses: actions/create-release@v1
         id: create_release
