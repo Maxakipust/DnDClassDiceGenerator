@@ -28,7 +28,7 @@ mkdir -p build/${VERSION}
 
 ALL_CLASSES=("Barb" "Druid" "Pal" "Bard" "Fighter" "Warlock" "Cleric" "Monk" "Rogue" "Wiz" "DND" "Range" "Sorc")
 
-for class in $ALL_CLASSES; do
+for class in ${ALL_CLASSES[@]}; do
     echo "Starting ${class}"
     openscad \
     --export-format binstl -o "build/${VERSION}/${class}_${VERSION}.stl" \
@@ -42,7 +42,7 @@ echo "Finished"
 echo "Cleaning up logs"
 logfile=build/${VERSION}/build.log
 touch $logfile
-for class in $ALL_CLASSES; do
+for class in ${ALL_CLASSES[@]}; do
     echo "====${class}====" >> $logfile
     cat build/${VERSION}/${class}_${VERSION}.log >> $logfile
     echo -e "\n\n" >> $logfile
