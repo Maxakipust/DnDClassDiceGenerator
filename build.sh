@@ -1,6 +1,6 @@
 # set -o xtrace
 echo $1
-VERSION=${1:-"2.3"}
+VERSION=${1:-"release"}
 
 echo "====Checking dependencies===="
 
